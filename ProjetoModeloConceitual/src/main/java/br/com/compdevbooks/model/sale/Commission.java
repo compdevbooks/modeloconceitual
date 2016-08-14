@@ -9,5 +9,5 @@ public class Commission{
     private Date saleDate;
     private Sale sale;
     private Seller seller;
-    private Set<CommissionInstallment> commissionInstallmentList;
+    private Set<InstallmentCommission> installmentCommissions;
 }

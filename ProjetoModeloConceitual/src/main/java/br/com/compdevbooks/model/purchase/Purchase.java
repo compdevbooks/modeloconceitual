@@ -9,11 +9,11 @@ import java.util.Set;
 public class Purchase{
 
     private Date registrationDate; //data do registro
-    private Date sendDate; //data do envio
+    private Date sentDate; //data do envio
     private Date receivedDate; //data do recebimento
-    private Date processingDate; //data do processamento
+    private Date processedDate; //data do processamento
     private PurchaseStatus status; 
-    private Set<PurchaseItem> purchaseItemList;
-    private Supplier provider;
+    private Set<PurchaseItem> purchasedItems;
+    private Supplier supplier;
     private Payment payment;
 }

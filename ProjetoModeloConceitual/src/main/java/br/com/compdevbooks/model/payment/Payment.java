@@ -4,7 +4,7 @@ import java.util.Set;
 
 public class Payment{
     
-    private PaymentType paymantType;
+    private PaymentMethod paymantMethod;
     private PaymentStatus paymentStatus;
-    private Set<PaymentInstallment> installmentList;
+    private Set<InstallmentPayment> installmentPayments;
 }

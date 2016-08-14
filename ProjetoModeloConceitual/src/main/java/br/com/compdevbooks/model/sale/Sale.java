@@ -10,9 +10,9 @@ public class Sale{
     private Date registrationDate; //data do registro
     private Date receivedDate; //data do recebimento
     private Date approvalDate; //data da aprovação
-    private Date processingDate; //data do processamento
+    private Date processedDate; //data do processamento
     private SaleStatus status;
-    private Set<SaleItem> saleItemList;
+    private Set<SaleItem> saleItems;
     private Client client;
     private Payment payment;
 }

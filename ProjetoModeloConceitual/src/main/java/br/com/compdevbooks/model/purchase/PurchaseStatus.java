@@ -4,5 +4,5 @@ public enum PurchaseStatus {
     REGISTERED,
     SENT,
     RECEIVED,
-    PROCESSED
+    PROCESSED,
 }

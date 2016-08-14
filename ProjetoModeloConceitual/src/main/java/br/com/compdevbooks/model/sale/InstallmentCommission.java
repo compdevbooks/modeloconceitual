@@ -2,7 +2,7 @@ package br.com.compdevbooks.model.sale;
 
 import java.util.Date;
 
-public class CommissionInstallment {
+public class InstallmentCommission {
 
     private Date dueDate; //data do vencimento
     private Date paymentDate; //data do pagamento
