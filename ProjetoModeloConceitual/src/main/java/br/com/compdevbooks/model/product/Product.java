@@ -1,6 +1,6 @@
 package br.com.compdevbooks.model.product;
 
-import br.com.compdevbooks.model.person.Supplier;
+import br.com.compdevbooks.model.person.Manufacturer;
 import java.util.Set;
 
 public class Product{
@@ -16,7 +16,6 @@ public class Product{
     private int minimumStock; // estoque minimo
     private int maximumStock; // estoque maximo
     private Category category; 
-    private Set<Supplier> suppliers; //lista de fornecedores
-    private Set<LotStock> lotSock;
+    private Manufacturer manufacturer;
 }
 

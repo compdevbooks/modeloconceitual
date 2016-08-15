@@ -6,8 +6,6 @@ import java.util.Set;
 
 public class Commission{
 
-    private Date saleDate;
     private Sale sale;
-    private Seller seller;
     private Set<InstallmentCommission> installmentCommissions;
 }
