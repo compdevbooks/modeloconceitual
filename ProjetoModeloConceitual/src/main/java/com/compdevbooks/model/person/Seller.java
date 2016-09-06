@@ -5,6 +5,6 @@ import com.compdevbooks.model.address.City;
 
 public class Seller extends NaturalPerson {
 
-    private Set<City> cityList;
-    private Set<Client> clientList;
+    private Set<City> cities;
+    private Set<Client> clients;
 }
